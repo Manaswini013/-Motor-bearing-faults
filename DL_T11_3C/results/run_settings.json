@@ -1,0 +1,39 @@
+{
+  "seed": 42,
+  "fs": 12000,
+  "window": 1024,
+  "train_stride": 512,
+  "eval_stride": 1024,
+  "val_loads": [
+    0,
+    1
+  ],
+  "test_loads": [
+    2,
+    3
+  ],
+  "epochs": 60,
+  "batch": 128,
+  "n_seeds": 3,
+  "cost_miss": 400000,
+  "cost_fa": 2000,
+  "scaler_mean": 0.012171163223683834,
+  "scaler_std": 0.06607800722122192,
+  "finals": {
+    "Dense AE (baseline)": {
+      "kind": "dense",
+      "size": 16,
+      "thrA": 0.9041123104095576,
+      "thrB": 2.014402652978897,
+      "kB": 1
+    },
+    "1D CNN AE (improved)": {
+      "kind": "cnn",
+      "size": 1,
+      "thrA": 0.8553307609558249,
+      "thrB": 2.0724527072906493,
+      "kB": 1
+    }
+  },
+  "tf": "2.21.0"
+}

@@ -1,0 +1,6 @@
+split,windows,fault_files,note
+Train (normal only),1984,0,"normal files 97-100, first 60%, 50% overlap"
+Validation normal,325,0,"same files, next 20%"
+Validation fault,2134,18,fault files at 0 and 1 HP; threshold tuning
+Test normal,325,0,"same files, last 20%"
+Test fault,2136,18,fault files at 2 and 3 HP; final test only

@@ -1,0 +1,9 @@
+model,operating_point,split,thr,k,window_recall,window_precision,window_fpr,fa_episodes,fa_per_24h,fa_per_24h_upper95,events_detected_3,events_detected_5min,n_events,mean_delay_readings,cost_rs
+Dense AE (baseline),A: best-F1,val,0.9041123104095576,1,1.0,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+Dense AE (baseline),A: best-F1,test,0.9041123104095576,1,1.0,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+Dense AE (baseline),B: cost-optimal,val,2.014402652978897,1,0.9606373008434864,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+Dense AE (baseline),B: cost-optimal,test,2.014402652978897,1,0.949438202247191,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0555555555555556,0.0
+1D CNN AE (improved),A: best-F1,val,0.8553307609558249,1,1.0,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+1D CNN AE (improved),A: best-F1,test,0.8553307609558249,1,1.0,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+1D CNN AE (improved),B: cost-optimal,val,2.0724527072906493,1,0.9620431115276477,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0,0.0
+1D CNN AE (improved),B: cost-optimal,test,2.0724527072906493,1,0.9517790262172284,1.0,0.0,0,0.0,11492.278299354952,18,18,18,1.0555555555555556,0.0

@@ -1,0 +1,21 @@
+model,op,target,value,result
+Dense AE (baseline),A: best-F1,Recall on fault events >= 0.85 (window-level),1.000,PASS
+Dense AE (baseline),A: best-F1,"Recall on fault events >= 0.85 (event-level, within 3 readings)",18/18,PASS
+Dense AE (baseline),A: best-F1,False alarms < 2 per 24 h (point estimate),0.00 (95% upper bound 11492; only 28 s of normal test data),PASS (not statistically verifiable)
+Dense AE (baseline),A: best-F1,Detection delay < 5 min (or within 3 readings),18/18 within 5 min; 18/18 within 3 readings; mean 1.00 readings,PASS
+Dense AE (baseline),A: best-F1,No labelled fault data used for training,train windows from normal files 97-100 only,PASS (by construction)
+Dense AE (baseline),B: cost-optimal,Recall on fault events >= 0.85 (window-level),0.949,PASS
+Dense AE (baseline),B: cost-optimal,"Recall on fault events >= 0.85 (event-level, within 3 readings)",18/18,PASS
+Dense AE (baseline),B: cost-optimal,False alarms < 2 per 24 h (point estimate),0.00 (95% upper bound 11492; only 28 s of normal test data),PASS (not statistically verifiable)
+Dense AE (baseline),B: cost-optimal,Detection delay < 5 min (or within 3 readings),18/18 within 5 min; 18/18 within 3 readings; mean 1.06 readings,PASS
+Dense AE (baseline),B: cost-optimal,No labelled fault data used for training,train windows from normal files 97-100 only,PASS (by construction)
+1D CNN AE (improved),A: best-F1,Recall on fault events >= 0.85 (window-level),1.000,PASS
+1D CNN AE (improved),A: best-F1,"Recall on fault events >= 0.85 (event-level, within 3 readings)",18/18,PASS
+1D CNN AE (improved),A: best-F1,False alarms < 2 per 24 h (point estimate),0.00 (95% upper bound 11492; only 28 s of normal test data),PASS (not statistically verifiable)
+1D CNN AE (improved),A: best-F1,Detection delay < 5 min (or within 3 readings),18/18 within 5 min; 18/18 within 3 readings; mean 1.00 readings,PASS
+1D CNN AE (improved),A: best-F1,No labelled fault data used for training,train windows from normal files 97-100 only,PASS (by construction)
+1D CNN AE (improved),B: cost-optimal,Recall on fault events >= 0.85 (window-level),0.952,PASS
+1D CNN AE (improved),B: cost-optimal,"Recall on fault events >= 0.85 (event-level, within 3 readings)",18/18,PASS
+1D CNN AE (improved),B: cost-optimal,False alarms < 2 per 24 h (point estimate),0.00 (95% upper bound 11492; only 28 s of normal test data),PASS (not statistically verifiable)
+1D CNN AE (improved),B: cost-optimal,Detection delay < 5 min (or within 3 readings),18/18 within 5 min; 18/18 within 3 readings; mean 1.06 readings,PASS
+1D CNN AE (improved),B: cost-optimal,No labelled fault data used for training,train windows from normal files 97-100 only,PASS (by construction)

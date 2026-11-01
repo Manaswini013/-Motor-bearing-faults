@@ -1,0 +1,73 @@
+type,size_in,load,windows,frac_windows_flagged,delay_readings,delay_s,detected_within_3,detected_within_5min,model,operating_point
+IR,007,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,007,3,120,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,007,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,007,3,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,007,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,007,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,014,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,014,3,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,014,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,014,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,014,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,014,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,021,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,021,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+B,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,021,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+OR,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),A: best-F1
+IR,007,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,007,3,120,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,007,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,007,3,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+OR,007,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+OR,007,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,014,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,014,3,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,014,2,119,0.9327731092436975,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,014,3,119,0.8739495798319328,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+OR,014,2,118,0.8305084745762712,2,0.17066666666666666,True,True,Dense AE (baseline),B: cost-optimal
+OR,014,3,119,0.453781512605042,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,021,2,118,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,021,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+B,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+OR,021,2,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+OR,021,3,119,1.0,1,0.08533333333333333,True,True,Dense AE (baseline),B: cost-optimal
+IR,007,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,007,3,120,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,007,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,007,3,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,007,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,007,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,014,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,014,3,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,014,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,014,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,014,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,014,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,021,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,021,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+B,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,021,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+OR,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),A: best-F1
+IR,007,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+IR,007,3,120,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,007,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,007,3,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+OR,007,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+OR,007,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+IR,014,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+IR,014,3,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,014,2,119,0.9243697478991597,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,014,3,119,0.865546218487395,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+OR,014,2,118,0.864406779661017,2,0.17066666666666666,True,True,1D CNN AE (improved),B: cost-optimal
+OR,014,3,119,0.4789915966386555,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+IR,021,2,118,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+IR,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,021,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+B,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+OR,021,2,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal
+OR,021,3,119,1.0,1,0.08533333333333333,True,True,1D CNN AE (improved),B: cost-optimal

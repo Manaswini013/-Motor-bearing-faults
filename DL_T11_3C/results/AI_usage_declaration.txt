@@ -1,0 +1,4 @@
+AI tool use declaration (Team 11, Task 3, Variant 3C)
+Tool: Claude (Anthropic) was used as a coding and writing assistant to draft the notebook structure, model code, evaluation functions, README and report template.
+Human work: running the notebook, checking the CWRU file IDs against the CWRU website, interpreting every result, writing the final report text from our own numbers, and preparing to explain all code in the viva.
+No results in the report were produced by the AI; all numbers come from running this notebook.
